@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Não indexar arquivos de verificação e dados internos
+Disallow: /google*.html
+Disallow: /*.csv$
+Disallow: /*.xlsx$
+Disallow: /*.xls$
+Disallow: /.htaccess
+
+Sitemap: https://synedicaoficial.com/sitemap.xml
